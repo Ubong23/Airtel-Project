@@ -1,0 +1,92 @@
+@media(max-width:450px){
+ 
+    
+  
+    
+    
+    header{
+    
+        
+        height: fit-content;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    
+    }
+    
+    
+    header nav{
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    
+    }
+    
+    header nav a{
+        
+        font-size: 12px;
+    }
+   
+    .banner{
+       
+        height: 600px;
+        background-image: url(./Images/banner2.jpg);
+        
+    }
+    
+    
+    .update-section h1{
+        font-size: 25px;
+        
+    }
+    
+    .update-section article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
+    
+    .update-section article input{
+        width: 80%;
+        
+    }
+    
+    
+    
+    .update-section article button{
+        width: 80%;
+        
+    
+    }
+    
+    
+    
+    footer{
+        flex-direction: column-reverse;
+        gap: 20px;
+        height: fit-content;
+    }
+    
+    footer p{
+        font-size: 11px;
+    
+    }
+    
+    footer small{
+        display: flex;
+        gap: 25px;
+    }
+    
+    footer small a img{
+    
+        transition: 1s;
+    }
+    
+    footer small a:hover img{
+        transform: scale(1.5);
+        filter: grayscale(1);
+    } 
+}
